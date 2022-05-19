@@ -1,27 +1,27 @@
 self.__precacheManifest = [
   {
-    "revision": "47a16a5a03ec2b84d9b4",
-    "url": "/fuerza_takeo_homepage/static/css/main.ddbbddf6.chunk.css"
+    "revision": "daa5df9569066f79916d",
+    "url": "/fuerza_takeo_homepage/static/css/main.73b8cbc4.chunk.css"
   },
   {
-    "revision": "47a16a5a03ec2b84d9b4",
-    "url": "/fuerza_takeo_homepage/static/js/main.47a16a5a.chunk.js"
+    "revision": "daa5df9569066f79916d",
+    "url": "/fuerza_takeo_homepage/static/js/main.daa5df95.chunk.js"
   },
   {
-    "revision": "7ef873392d73c34b4b72",
-    "url": "/fuerza_takeo_homepage/static/js/1.7ef87339.chunk.js"
+    "revision": "b3be8a9b1cc833812d75",
+    "url": "/fuerza_takeo_homepage/static/js/1.b3be8a9b.chunk.js"
   },
   {
-    "revision": "e1447ec1cada5df336f3",
-    "url": "/fuerza_takeo_homepage/static/css/2.cc252340.chunk.css"
+    "revision": "840e9ff9be88e56fa1de",
+    "url": "/fuerza_takeo_homepage/static/css/2.074e7cbb.chunk.css"
   },
   {
-    "revision": "e1447ec1cada5df336f3",
-    "url": "/fuerza_takeo_homepage/static/js/2.e1447ec1.chunk.js"
+    "revision": "840e9ff9be88e56fa1de",
+    "url": "/fuerza_takeo_homepage/static/js/2.840e9ff9.chunk.js"
   },
   {
-    "revision": "93da5383de3db613aea2",
-    "url": "/fuerza_takeo_homepage/static/js/runtime~main.93da5383.js"
+    "revision": "433dde7e610d4a6bf8b9",
+    "url": "/fuerza_takeo_homepage/static/js/runtime~main.433dde7e.js"
   },
   {
     "revision": "dd08326943e4bb49825ffa425524cfec",
@@ -44,7 +44,7 @@ self.__precacheManifest = [
     "url": "/fuerza_takeo_homepage/static/media/slide4.a02c04f4.jpg"
   },
   {
-    "revision": "b68892d92fdba2ba16e23312238053d1",
+    "revision": "8dca3571245ccdd1acc2408420b68221",
     "url": "/fuerza_takeo_homepage/index.html"
   }
 ];
