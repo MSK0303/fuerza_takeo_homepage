@@ -16,7 +16,7 @@ const Experience: React.FC = () => {
     return (
         <Layout title='体験申し込み|'>
             {(!is_send) ? (
-                <div className="experience-page">
+                <div style={{marginBottom:"30px"}} className="experience-page">
                     <Grid container >
                         <Grid item xs={1} md={2}>
                         </Grid>
