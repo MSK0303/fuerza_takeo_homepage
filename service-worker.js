@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/fuerza_takeo_homepage/precache-manifest.dcc823c624dab61a93c04358daaeec7e.js"
+  "/fuerza_takeo_homepage/precache-manifest.ab4aec73f485e5342711dfddab360a0a.js"
 );
 
 workbox.clientsClaim();
