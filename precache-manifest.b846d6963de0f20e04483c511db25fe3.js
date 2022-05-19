@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "37249cf9613b183e9ef4",
+    "revision": "d94027992a462d32a34d",
     "url": "/fuerza_takeo_homepage/static/css/main.ac0f6181.chunk.css"
   },
   {
-    "revision": "37249cf9613b183e9ef4",
-    "url": "/fuerza_takeo_homepage/static/js/main.37249cf9.chunk.js"
+    "revision": "d94027992a462d32a34d",
+    "url": "/fuerza_takeo_homepage/static/js/main.d9402799.chunk.js"
   },
   {
     "revision": "032d891be1b2709f7244",
@@ -44,7 +44,7 @@ self.__precacheManifest = [
     "url": "/fuerza_takeo_homepage/static/media/slide3.218e743a.jpg"
   },
   {
-    "revision": "86a9e1226882772262f01d533032ef97",
+    "revision": "04444027ec93cdc579b100e52cf6c5ec",
     "url": "/fuerza_takeo_homepage/index.html"
   }
 ];
