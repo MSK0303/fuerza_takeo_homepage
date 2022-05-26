@@ -9,6 +9,7 @@ const titleStyle = {fontSize:{xs:"20px",md:"35px"},fontWeight:"bold",color:"#005
 const subtitleStyle = {color:"#336600	", marginTop:"30px"};
 const tableCellStyle = {fontSize:{xs:"12px",md:"18px"}};
 
+
 interface PRACTICE_INFO {
     day_of_week:string,
     detail:string,
@@ -80,6 +81,32 @@ const Club:React.FC = () => {
                         </TableBody>
                     </Table>
                 </TableContainer>
+                {/* 部費について */}
+                <Typography variant='h4' sx={titleStyle}>● 費用について</Typography>
+                <TableContainer sx={{marginLeft:"20px"}}>
+                    <Table>
+                        <TableHead>
+                            <TableRow>
+                                <TableCell sx={tableCellStyle}>カテゴリー</TableCell>
+                                <TableCell sx={tableCellStyle}>部費</TableCell>
+                                <TableCell sx={tableCellStyle}>バス購入積立</TableCell>
+                            </TableRow>
+                        </TableHead>
+                        <TableBody>
+                            <TableRow>
+                                <TableCell sx={tableCellStyle}>１～３年生</TableCell>
+                                <TableCell sx={tableCellStyle}>2200円/月</TableCell>
+                                <TableCell sx={tableCellStyle}>1000円/月</TableCell>
+                            </TableRow>
+                            <TableRow>
+                                <TableCell sx={tableCellStyle}>４～６年生</TableCell>
+                                <TableCell sx={tableCellStyle}>3000円/月</TableCell>
+                                <TableCell sx={tableCellStyle}>1000円/月</TableCell>
+                            </TableRow>
+                        </TableBody>
+                    </Table>
+                </TableContainer>
+                <Typography variant='h6' sx={{fontSize:{xs:"10px",md:"15px"}, marginTop:"10px", marginLeft:"20px",marginBottom:"20px"}}>※２人目以降は半額になります。</Typography>
             </Grid>
             <Grid item xs={0} md={2}>
             </Grid>

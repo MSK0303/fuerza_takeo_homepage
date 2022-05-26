@@ -16,7 +16,7 @@ const Layout:React.FC<Props> = ({ children, title = '' }: Props) => (
             <title>{title + "FCフェルサ武雄"}</title>
             <meta charSet="utf-8" />
             <meta name="description" content="FC フェルサ武雄のホームページ" />
-            <link rel="icon" href={LOGO} />
+            <link rel="icon" href={"./fuerza_logo.png"} />
             <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         </Helmet>
         <Header />

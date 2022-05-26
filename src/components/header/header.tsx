@@ -27,22 +27,22 @@ const Header:React.FC = () => {
             <Container maxWidth="xl">
                 <Toolbar disableGutters>
                     <img src={LOGO} alt='logo' style={{width:"45px",marginRight:"10px",marginLeft:"10px"}}/>
-                    <Typography variant='h5' noWrap component="a" href='/fuerza_takeo_homepage/' style={{color:"white",textDecoration:"none"}}>
+                    <Typography variant='h5' noWrap component="a" href='/' style={{color:"white",textDecoration:"none"}}>
                         FCフェルサ武雄
                     </Typography>
                     {/* ブラウザ画面 */}
                     <Box sx={{ flexGrow:1, display:{xs:'none',md:"flex"},justifyContent:"right",marginRight:"20px"}}>
                         <nav>
-                            <Link to="/fuerza_takeo_homepage/" style={{textDecoration:"none"}}>
+                            <Link to="/" style={{textDecoration:"none"}}>
                                 <a style={{color:"white",fontWeight:"bold",marginRight:"20px"}}>ホーム</a>
                             </Link>
-                            <Link to="/fuerza_takeo_homepage/club" style={{textDecoration:"none"}}>
+                            <Link to="/club" style={{textDecoration:"none"}}>
                                 <a style={{color:"white",fontWeight:"bold",marginRight:"20px"}}>クラブ紹介</a>
                             </Link>
-                            <Link to="/fuerza_takeo_homepage/experience" style={{textDecoration:"none"}}>
+                            <Link to="/experience" style={{textDecoration:"none"}}>
                                 <a style={{color:"white",fontWeight:"bold",marginRight:"20px"}}>体験申し込み</a>
                             </Link>
-                            <Link to="/fuerza_takeo_homepage/contact" style={{textDecoration:"none"}}>
+                            <Link to="/contact" style={{textDecoration:"none"}}>
                                 <a style={{color:"white",fontWeight:"bold",marginRight:"20px"}}>お問い合わせ</a>
                             </Link>
                         </nav>
@@ -50,7 +50,7 @@ const Header:React.FC = () => {
                     {/* モバイル画面 */}
                     <Box sx={{ flexGrow:1, display:{xs:'flex',md:"none"},justifyContent:"right",marginRight:"20px"}}>
                         <IconButton onClick={handleOpenNavMenu}>
-                            <MenuIcon />
+                            <MenuIcon style={{color:"white"}}/>
                         </IconButton>
                         <Menu 
                             anchorEl={anchorElNav} 
@@ -61,22 +61,22 @@ const Header:React.FC = () => {
                             onClose={handleCloseNavMenu}
                             sx={{display:"block", md:"none"}}>
                                 <MenuItem onClick={handleCloseNavMenu}>
-                                    <Link to="/fuerza_takeo_homepage/" >
+                                    <Link to="/" >
                                         <a style={{color:"black",fontWeight:"bold",marginRight:"20px"}}>ホーム</a>
                                     </Link>
                                 </MenuItem>
                                 <MenuItem onClick={handleCloseNavMenu}>
-                                    <Link to="/fuerza_takeo_homepage/club" >
+                                    <Link to="/club" >
                                         <a style={{color:"black",fontWeight:"bold",marginRight:"20px"}}>クラブ紹介</a>
                                     </Link>
                                 </MenuItem>
                                 <MenuItem onClick={handleCloseNavMenu}>
-                                    <Link to="/fuerza_takeo_homepage/experience" >
+                                    <Link to="/experience" >
                                         <a style={{color:"black",fontWeight:"bold",marginRight:"20px"}}>体験申し込み</a>
                                     </Link>
                                 </MenuItem>
                                 <MenuItem onClick={handleCloseNavMenu}>
-                                    <Link to="/fuerza_takeo_homepage/contact" >
+                                    <Link to="/contact" >
                                         <a style={{color:"black",fontWeight:"bold",marginRight:"20px"}}>お問い合わせ</a>
                                     </Link>
                                 </MenuItem>
