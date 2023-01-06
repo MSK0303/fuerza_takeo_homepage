@@ -43,7 +43,7 @@ const Club:React.FC = () => {
                     FC フェルサ武雄は佐賀県武雄市で活動している少年サッカーチームです。<br/>
                     主に橘小学校と朝日小学校にて活動を行っています。<br/>
                     <br/>
-                    小学校1年生から6年生までを対象としてサッカーの指導を行っています。<br />
+                    幼稚園・保育園児、小学校1年生から6年生までを対象としてサッカーの指導を行っています。<br />
                     <br />
 
                 </Typography>
@@ -93,6 +93,11 @@ const Club:React.FC = () => {
                             </TableRow>
                         </TableHead>
                         <TableBody>
+                        <TableRow>
+                                <TableCell sx={tableCellStyle}>幼稚園・保育園児</TableCell>
+                                <TableCell sx={tableCellStyle}>無料</TableCell>
+                                <TableCell sx={tableCellStyle}>無料</TableCell>
+                            </TableRow>
                             <TableRow>
                                 <TableCell sx={tableCellStyle}>１～３年生</TableCell>
                                 <TableCell sx={tableCellStyle}>2200円/月</TableCell>
