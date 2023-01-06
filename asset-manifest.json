@@ -1,7 +1,7 @@
 {
   "main.css": "/static/css/main.89fda95d.chunk.css",
-  "main.js": "/static/js/main.b86c353a.chunk.js",
-  "main.js.map": "/static/js/main.b86c353a.chunk.js.map",
+  "main.js": "/static/js/main.a78f1514.chunk.js",
+  "main.js.map": "/static/js/main.a78f1514.chunk.js.map",
   "static/js/1.0da118fa.chunk.js": "/static/js/1.0da118fa.chunk.js",
   "static/js/1.0da118fa.chunk.js.map": "/static/js/1.0da118fa.chunk.js.map",
   "static/css/2.148894aa.chunk.css": "/static/css/2.148894aa.chunk.css",
@@ -11,12 +11,12 @@
   "runtime~main.js.map": "/static/js/runtime~main.bb80b986.js.map",
   "static/media/fuerza_logo.png": "/static/media/fuerza_logo.dd083269.png",
   "static/media/slide1.jpg": "/static/media/slide1.6e0f05ca.jpg",
-  "static/media/slide3.jpg": "/static/media/slide3.7fed1deb.jpg",
-  "static/media/slide2.jpg": "/static/media/slide2.e69abec3.jpg",
-  "static/media/slide4.jpg": "/static/media/slide4.810d0e45.jpg",
+  "static/media/slide3.jpg": "/static/media/slide3.906839dd.jpg",
+  "static/media/slide2.jpg": "/static/media/slide2.a2f017f1.jpg",
+  "static/media/slide4.jpg": "/static/media/slide4.849c498f.jpg",
   "static/css/main.89fda95d.chunk.css.map": "/static/css/main.89fda95d.chunk.css.map",
   "static/css/2.148894aa.chunk.css.map": "/static/css/2.148894aa.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.92f4cc0e86c0f4a6fd3f34a71d2a77af.js": "/precache-manifest.92f4cc0e86c0f4a6fd3f34a71d2a77af.js",
+  "precache-manifest.2f26ab2351e61a976da1f2db3ca6f7b1.js": "/precache-manifest.2f26ab2351e61a976da1f2db3ca6f7b1.js",
   "service-worker.js": "/service-worker.js"
 }
