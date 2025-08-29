@@ -22,11 +22,10 @@ const practice_table_header:string[] = [
 ];
 
 const practice_table:PRACTICE_INFO[] = [
-    {day_of_week:"月曜日",detail:"キーパー練習",time:"18:30~20:00",location:"橘小学校"},
-    {day_of_week:"火曜日",detail:"全体練習",time:"18:00~20:00",location:"朝日小学校"},
+    {day_of_week:"火曜日",detail:"6年生・低学年練習",time:"18:00~20:00",location:"朝日小学校"},
     {day_of_week:"水曜日",detail:"全体練習",time:"18:00~20:00",location:"橘小学校"},
-    {day_of_week:"木曜日",detail:"キーパー練習",time:"18:30~20:00",location:"橘小学校"},
-    {day_of_week:"金曜日",detail:"全体練習",time:"18:00~20:00",location:"橘小学校または朝日小学校"},
+    {day_of_week:"木曜日",detail:"5年生・キーパー練習",time:"18:30~20:00",location:"橘小学校"},
+    {day_of_week:"金曜日",detail:"全体練習",time:"18:00~20:00",location:"橘小学校"},
 ]
 
 const Club:React.FC = () => {
@@ -44,6 +43,8 @@ const Club:React.FC = () => {
                     主に橘小学校と朝日小学校にて活動を行っています。<br/>
                     <br/>
                     幼稚園・保育園児、小学校1年生から6年生までを対象としてサッカーの指導を行っています。<br />
+                    <br />
+                    サッカーを楽しみながら、技術はもちろん心身の成長に寄り添いたいと思いを持ちながら、指導を行っています。
                     <br />
 
                 </Typography>

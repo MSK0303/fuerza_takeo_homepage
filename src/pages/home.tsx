@@ -8,7 +8,7 @@ const Home:React.FC = () => {
     return (
         <Layout title=''>
             <SlideShow />
-            <TwitterComp />
+            {/* <TwitterComp /> */}
         </Layout>
     )
 }
