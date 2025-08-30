@@ -1,6 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { HelmetProvider } from 'react-helmet-async';
+import { ThemeProvider } from '@mui/material/styles';
+import CssBaseline from '@mui/material/CssBaseline';
+import { theme } from './theme/theme';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import RouteManager from "./RouteManager/routeManager";
@@ -10,9 +13,12 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.Fragment>
-    <HelmetProvider>
-      <RouteManager />
-    </HelmetProvider>
+    <ThemeProvider theme={theme}>
+      <CssBaseline />
+      <HelmetProvider>
+        <RouteManager />
+      </HelmetProvider>
+    </ThemeProvider>
   </React.Fragment>
 );
 
